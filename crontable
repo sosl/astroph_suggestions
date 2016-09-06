@@ -1,0 +1,2 @@
+5 1 * * * ~soslowski/soft/bin/get_news.sh
+5 1 * * 0 ~soslowski/soft/bin/get_papers.sh
