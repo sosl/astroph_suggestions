@@ -1,0 +1,7 @@
+/* LIST #2 */
+#list2 { width:900px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#000000; columns: 1; -webkit-columns: 1; -moz-columns: 1; -webkit-column-gap: 25px; -moz-column-gap: 25px; column-gap: 25px}
+
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#444; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }

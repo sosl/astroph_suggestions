@@ -1,0 +1,44 @@
+/* centre the whole page:*/
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  text-align:center; /*For IE6 Shenanigans*/
+  background-image: url("https://www.swinburne.edu.au/media/swinburneeduau/style-assets/images/concrete_seamless.gif");
+}
+
+#wrapper{
+  /*width:960px;*/
+  width: 75%;
+  margin:0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align:left;
+  background: #FFFFFF;
+  font-family:Open Sans,sans-serif;
+  font-size:1rem; 
+}
+
+input,select {
+  font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+  sans-serif;
+  color: #FFFFFF;
+  border-right: 1px solid #C1DAD7;
+  border-bottom: 1px solid #C1DAD7;
+  border-top: 1px solid #C1DAD7;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 6px 6px 6px 12px;
+  background: #E81C17 url(images/bg_header.jpg) no-repeat;
+}
+
+h3 {
+  text-align: center;
+  font: bold "Trebuchet MS", Verdana, Arial, Helvetica,
+  sans-serif;
+  color: #FFFFFF;
+  background: #000000;
+}
