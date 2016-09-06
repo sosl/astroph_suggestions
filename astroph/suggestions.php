@@ -52,7 +52,7 @@ $news_list_file_dict = array(
 echo '<br><br><br><br><br><section id="RFHS_suggestions"><div>';
 echo '<h3> astroph / RFHS suggestions</h3>';
 echo '<p> Please choose a list: '."\n";
-echo '<form action="" method="post" class="zielony">'."\n";
+echo '<form action="" method="post">'."\n";
 echo '<select name="list_type" onchange="this.form.submit()">';
 echo '<option value="">Type:</option>'."\n";
 foreach ( $list_code_name_dict as $val => $txt )
